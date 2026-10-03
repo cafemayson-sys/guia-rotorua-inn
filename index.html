@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b2447">
+<title>Guia do Hóspede | Hotel Rotorua Inn</title>
+<meta name="description" content="Guia de boas-vindas do Hotel Rotorua Inn, Meireles, Fortaleza.">
+<!-- Paleta azul oceano aprovada pelo Mayson em 03/10/2026. Logo recortada de captura de tela: trocar pelo arquivo original (SVG/PNG grande) quando houver. -->
+<style>
+:root{--fundo1:#0b2447;--fundo2:#19376d;--fundo3:#2c5d9e;--claro:#f7f4ee;--texto:#1c2533;--suave:#5d6878;--borda:#e6e1d6;--ouro:#f2c36b;--alerta:#b3261e}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;color:#fff;font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  background:radial-gradient(120% 60% at 85% 0%,rgba(242,195,107,.22),transparent 60%),
+             radial-gradient(90% 50% at 0% 100%,rgba(44,93,158,.7),transparent 70%),
+             linear-gradient(170deg,var(--fundo1),var(--fundo2) 60%,var(--fundo1));background-attachment:fixed}
+svg.i{width:36px;height:36px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+/* capa */
+.capa{max-width:520px;margin:0 auto;padding:20px 16px 28px}
+.topo{display:flex;justify-content:space-between;align-items:center}
+.logo{display:block;width:230px;height:auto;margin:22px auto 0}
+.lang{display:flex;border:1px solid rgba(255,255,255,.4);border-radius:999px;overflow:hidden}
+.lang button{background:none;border:0;color:#fff;padding:6px 12px;font:600 .8rem system-ui;cursor:pointer}
+.lang button[aria-pressed=true]{background:#fff;color:var(--fundo1)}
+h1{margin:30px 0 6px;font-size:2.6rem;line-height:1.02;font-weight:800;letter-spacing:-.01em;text-transform:uppercase}
+.sub{margin:0 0 28px;font-size:1.05rem;opacity:.85}
+.sub b{color:var(--ouro);font-weight:600}
+
+/* grade */
+.grade{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.grade a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;aspect-ratio:1;
+  padding:10px 4px;border-radius:20px;color:#fff;text-decoration:none;text-align:center;
+  background:linear-gradient(160deg,rgba(255,255,255,.14),rgba(255,255,255,.04));
+  border:1px solid rgba(255,255,255,.16);box-shadow:0 8px 24px rgba(0,0,0,.18);transition:transform .15s,background .15s}
+.grade a:active{transform:scale(.96);background:rgba(255,255,255,.2)}
+.grade span{font-size:.7rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;line-height:1.2}
+.rodape{text-align:center;font-size:.75rem;opacity:.65;margin-top:28px}
+
+/* tela de conteúdo */
+.tela{display:none}
+.tela:target{display:block;position:fixed;inset:0;overflow-y:auto;background:var(--claro);color:var(--texto);z-index:5;animation:sobe .22s ease-out}
+@keyframes sobe{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
+.tela header{background:linear-gradient(160deg,var(--fundo1),var(--fundo3));color:#fff;padding:14px 16px 26px}
+.voltar{display:inline-flex;align-items:center;gap:6px;color:#fff;text-decoration:none;font-size:.9rem;opacity:.9;padding:4px 0}
+.tela header .t{display:flex;align-items:center;gap:14px;margin-top:16px}
+.tela header .t svg.i{width:44px;height:44px;color:var(--ouro)}
+.tela h2{margin:0;font-size:1.6rem;text-transform:uppercase;letter-spacing:.02em}
+.c{max-width:520px;margin:-12px auto 0;padding:0 16px 32px}
+.card{background:#fff;border:1px solid var(--borda);border-radius:16px;padding:16px 18px;box-shadow:0 6px 18px rgba(11,36,71,.06)}
+.c p,.c ul{margin:.45em 0}
+.c ul{padding-left:1.2em}
+.c li{margin:.25em 0}
+.c a{color:var(--fundo3)}
+.btn{display:inline-block;margin-top:10px;background:var(--fundo2);color:#fff!important;text-decoration:none;padding:11px 18px;border-radius:10px;font-weight:600}
+.btn.wa{background:#1f8f4e}
+.aviso{border-left:4px solid var(--alerta);background:#fdecea;padding:10px 12px;border-radius:8px;margin-top:14px}
+.nota{color:var(--suave);font-size:.85rem}
+
+html[lang=pt-BR] [lang=en],html[lang=en] [lang=pt-BR]{display:none}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-casa" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/></symbol>
+  <symbol id="i-chave" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="4.5"/><path d="M10.7 12.3 21 2"/><path d="m16 7 3 3"/><path d="m18.5 4.5 2.5 2.5"/></symbol>
+  <symbol id="i-pino" viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2 8.8a15 15 0 0 1 20 0"/><path d="M5 12.5a10 10 0 0 1 14 0"/><path d="M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r=".8"/></symbol>
+  <symbol id="i-cafe" viewBox="0 0 24 24"><path d="M4 9h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M17 10.5h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M8 3v3M12 3v3"/></symbol>
+  <symbol id="i-regras" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2.8h6V4"/><path d="M9 10h6M9 14h6M9 18h3"/></symbol>
+  <symbol id="i-piscina" viewBox="0 0 24 24"><path d="M8 14V4M16 14V4M8 7.5h8M8 11h8"/><path d="M2 17.5c2 0 2-1.5 4-1.5s2 1.5 4 1.5 2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"/><path d="M2 21.5c2 0 2-1.5 4-1.5s2 1.5 4 1.5 2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"/></symbol>
+  <symbol id="i-carro" viewBox="0 0 24 24"><path d="M3 13l2-6h14l2 6v5H3z"/><path d="M3 13h18"/><circle cx="7.5" cy="15.5" r=".8"/><circle cx="16.5" cy="15.5" r=".8"/><path d="M5.5 18v2M18.5 18v2"/></symbol>
+  <symbol id="i-bussola" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol>
+  <symbol id="i-praia" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 1 9 9H3a9 9 0 0 1 9-9z"/><path d="M12 12v7"/><path d="M3 21c3-1.5 6-1.5 9 0s6 1.5 9 0"/></symbol>
+  <symbol id="i-talher" viewBox="0 0 24 24"><path d="M6 3v6a2 2 0 0 0 4 0V3M8 11v10"/><path d="M18 21V3c-2 1-3 4-3 7s1 4 3 4"/></symbol>
+  <symbol id="i-sacola" viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></symbol>
+  <symbol id="i-alerta" viewBox="0 0 24 24"><path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6"/></symbol>
+  <symbol id="i-mala" viewBox="0 0 24 24"><rect x="6" y="7" width="12" height="13" rx="2"/><path d="M9 7V3.5h6V7"/><path d="M10 11v5M14 11v5"/><path d="M9 20v1.5M15 20v1.5"/></symbol>
+  <symbol id="i-fone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-seta" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+</svg>
+
+<div class="capa">
+  <div class="topo">
+    <span></span>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" data-l="pt-BR" aria-pressed="true">PT</button>
+      <button type="button" data-l="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+  <img class="logo" alt="Rotorua Inn Hotel" width="397" height="91" src="data:image/png;base64,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">
+  <h1><span lang="pt-BR">Guia de<br>boas-vindas</span><span lang="en">Welcome<br>guide</span></h1>
+  <p class="sub"><b>Kia ora!</b> <span lang="pt-BR">Fique à vontade, explore e aproveite.</span><span lang="en">Make yourself at home, explore and enjoy.</span></p>
+
+  <nav class="grade">
+    <a href="#boas-vindas"><svg class="i"><use href="#i-casa"/></svg><span lang="pt-BR">Boas-vindas</span><span lang="en">Welcome</span></a>
+    <a href="#check-in"><svg class="i"><use href="#i-chave"/></svg><span>Check-in</span></a>
+    <a href="#localizacao"><svg class="i"><use href="#i-pino"/></svg><span lang="pt-BR">Localização</span><span lang="en">Location</span></a>
+    <a href="#wifi"><svg class="i"><use href="#i-wifi"/></svg><span>Wi-Fi</span></a>
+    <a href="#cafe"><svg class="i"><use href="#i-cafe"/></svg><span lang="pt-BR">Café da manhã</span><span lang="en">Breakfast</span></a>
+    <a href="#regras"><svg class="i"><use href="#i-regras"/></svg><span lang="pt-BR">Regras</span><span lang="en">House rules</span></a>
+    <a href="#piscina"><svg class="i"><use href="#i-piscina"/></svg><span lang="pt-BR">Piscina e lazer</span><span lang="en">Pool</span></a>
+    <a href="#transporte"><svg class="i"><use href="#i-carro"/></svg><span lang="pt-BR">Transporte</span><span lang="en">Transport</span></a>
+    <a href="#passeios"><svg class="i"><use href="#i-bussola"/></svg><span lang="pt-BR">Passeios</span><span lang="en">Tours</span></a>
+    <a href="#praias"><svg class="i"><use href="#i-praia"/></svg><span lang="pt-BR">Praias</span><span lang="en">Beaches</span></a>
+    <a href="#restaurantes"><svg class="i"><use href="#i-talher"/></svg><span lang="pt-BR">Restaurantes</span><span lang="en">Restaurants</span></a>
+    <a href="#compras"><svg class="i"><use href="#i-sacola"/></svg><span lang="pt-BR">Compras</span><span lang="en">Shopping</span></a>
+    <a href="#emergencia"><svg class="i"><use href="#i-alerta"/></svg><span lang="pt-BR">Emergência</span><span lang="en">Emergency</span></a>
+    <a href="#check-out"><svg class="i"><use href="#i-mala"/></svg><span>Check-out</span></a>
+    <a href="#contato"><svg class="i"><use href="#i-fone"/></svg><span lang="pt-BR">Contato</span><span lang="en">Contact</span></a>
+  </nav>
+
+  <div class="rodape">
+    <span lang="pt-BR">Rua Barão de Aracati, 280, Meireles, Fortaleza<br>Última revisão: 03/10/2026</span>
+    <span lang="en">Rua Barão de Aracati, 280, Meireles, Fortaleza<br>Last updated: Oct 3, 2026</span>
+  </div>
+</div>
+
+<!-- ===== Telas de conteúdo (abrem pelo #endereço; o voltar do celular fecha) ===== -->
+
+<section class="tela" id="boas-vindas">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-casa"/></svg><h2><span lang="pt-BR">Boas-vindas</span><span lang="en">Welcome</span></h2></div></header>
+  <div class="c"><div class="card">
+    <div lang="pt-BR">
+      <p><strong>Kia ora!</strong> Que bom ter você aqui. Somos um hotel família no coração do Meireles, a poucos passos do mar.</p>
+      <p>O nome Rotorua vem da cidade māori de Rotorua, na Nova Zelândia. Por isso o "Kia ora", que quer dizer olá e seja bem-vindo.</p>
+      <p>Nossa recepção funciona 24 horas. Qualquer coisa, é só chamar.</p>
+    </div>
+    <div lang="en">
+      <p><strong>Kia ora!</strong> We are so glad to have you. We are a family hotel in the heart of Meireles, just a few steps from the sea.</p>
+      <p>Our name comes from the Māori city of Rotorua, in New Zealand. That is why we greet you with "Kia ora", meaning hello and welcome.</p>
+      <p>Our front desk is open 24 hours. Just let us know if you need anything.</p>
+    </div>
+  </div></div>
+</section>
+
+<section class="tela" id="check-in">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-chave"/></svg><h2>Check-in</h2></div></header>
+  <div class="c"><div class="card">
+    <div lang="pt-BR">
+      <p>A partir das <strong>14h</strong>.</p>
+      <p>Chegou mais cedo? Sua bagagem fica guardada na recepção enquanto o quarto fica pronto.</p>
+      <p>Early check-in (antes das 14h) depende da disponibilidade do dia. Fale com a recepção.</p>
+    </div>
+    <div lang="en">
+      <p>From <strong>2 pm</strong>.</p>
+      <p>Arrived early? We will keep your luggage at the front desk while your room gets ready.</p>
+      <p>Early check-in (before 2 pm) depends on availability that day. Please ask the front desk.</p>
+    </div>
+  </div></div>
+</section>
+
+<section class="tela" id="localizacao">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-pino"/></svg><h2><span lang="pt-BR">Localização</span><span lang="en">Location</span></h2></div></header>
+  <div class="c"><div class="card">
+    <p>Rua Barão de Aracati, 280, Meireles<br>Fortaleza, CE, 60115-080</p>
+    <p lang="pt-BR">Aeroporto Pinto Martins a cerca de 7 km. Centro de Fortaleza a cerca de 3,4 km.</p>
+    <p lang="en">Pinto Martins Airport is about 7 km away. Downtown Fortaleza is about 3.4 km away.</p>
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel+Rotorua+Inn+Rua+Bar%C3%A3o+de+Aracati+280+Meireles+Fortaleza" target="_blank" rel="noopener"><span lang="pt-BR">Abrir no mapa</span><span lang="en">Open in maps</span></a>
+  </div></div>
+</section>
+
+<section class="tela" id="wifi">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-wifi"/></svg><h2>Wi-Fi</h2></div></header>
+  <div class="c"><div class="card">
+    <p lang="pt-BR">Grátis em todo o hotel. <strong>A senha está no cartão do seu quarto.</strong></p>
+    <p lang="en">Free throughout the hotel. <strong>The password is on the card in your room.</strong></p>
+  </div></div>
+</section>
+
+<section class="tela" id="cafe">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-cafe"/></svg><h2><span lang="pt-BR">Café da manhã</span><span lang="en">Breakfast</span></h2></div></header>
+  <div class="c"><div class="card">
+    <div lang="pt-BR">
+      <p>Das <strong>6h30 às 9h30</strong>, incluído na diária.</p>
+      <p>Continental e buffet.</p>
+      <p>Servido no <strong>primeiro andar</strong> (um lance de escada acima da recepção).</p>
+    </div>
+    <div lang="en">
+      <p>From <strong>6:30 to 9:30 am</strong>, included in your stay.</p>
+      <p>Continental and buffet.</p>
+      <p>Served on the <strong>first floor</strong> (one flight of stairs above the lobby).</p>
+    </div>
+  </div></div>
+</section>
+
+<section class="tela" id="regras">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-regras"/></svg><h2><span lang="pt-BR">Regras da casa</span><span lang="en">House rules</span></h2></div></header>
+  <div class="c"><div class="card">
+    <ul lang="pt-BR">
+      <li>Proibido fumar em todas as áreas do hotel.</li>
+      <li>Não aceitamos pets.</li>
+      <li>O hotel não tem elevador: os andares superiores são acessados só por escada.</li>
+    </ul>
+    <ul lang="en">
+      <li>No smoking anywhere in the hotel.</li>
+      <li>Pets are not allowed.</li>
+      <li>There is no elevator: upper floors are reached by stairs only.</li>
+    </ul>
+  </div></div>
+</section>
+
+<section class="tela" id="piscina">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-piscina"/></svg><h2><span lang="pt-BR">Piscina e lazer</span><span lang="en">Pool and leisure</span></h2></div></header>
+  <div class="c"><div class="card">
+    <div lang="pt-BR">
+      <p>Piscina ao ar livre, para todas as idades. Aberta das <strong>9h30 às 21h</strong>.</p>
+      <p><strong>Cortesias</strong> (peça na recepção): kit de beach tênis, cadeiras, espreguiçadeiras e guarda-sóis de praia.</p>
+      <p>Bicicleta: aluguel com custo, consulte a recepção.</p>
+    </div>
+    <div lang="en">
+      <p>Outdoor pool, for all ages. Open <strong>9:30 am to 9 pm</strong>.</p>
+      <p><strong>Complimentary</strong> (ask the front desk): beach tennis kit, beach chairs, loungers and umbrellas.</p>
+      <p>Bicycles: available for rent at a cost, ask the front desk.</p>
+    </div>
+  </div></div>
+</section>
+
+<section class="tela" id="transporte">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-carro"/></svg><h2><span lang="pt-BR">Transporte</span><span lang="en">Transportation</span></h2></div></header>
+  <div class="c"><div class="card">
+    <ul lang="pt-BR">
+      <li>Transfer do aeroporto: disponível com custo adicional. Combine com a recepção.</li>
+      <li>Estacionamento grátis em frente ao hotel, na rua, sem reserva, por ordem de chegada.</li>
+    </ul>
+    <ul lang="en">
+      <li>Airport transfer: available at an extra cost. Book it with the front desk.</li>
+      <li>Free street parking in front of the hotel, no reservation, first come, first served.</li>
+    </ul>
+  </div></div>
+</section>
+
+<section class="tela" id="passeios">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-bussola"/></svg><h2><span lang="pt-BR">Passeios</span><span lang="en">Tours and sights</span></h2></div></header>
+  <div class="c"><div class="card">
+    <div lang="pt-BR">
+      <p>Temos <strong>balcão de turismo</strong> no hotel, com passeios pelas praias do Ceará.</p>
+      <ul>
+        <li>Pôr do sol: Ponte dos Ingleses</li>
+        <li>Centro Dragão do Mar: cerca de 900 m</li>
+        <li>CEART (artesanato): cerca de 1,1 km</li>
+        <li>Ceará Show (espetáculos): cerca de 2 km</li>
+      </ul>
+    </div>
+    <div lang="en">
+      <p>We have a <strong>tour desk</strong> at the hotel, with trips to the beaches of Ceará.</p>
+      <ul>
+        <li>Sunset: Ponte dos Ingleses (English Bridge)</li>
+        <li>Dragão do Mar Cultural Center: about 900 m</li>
+        <li>CEART (local crafts): about 1.1 km</li>
+        <li>Ceará Show (live shows): about 2 km</li>
+      </ul>
+    </div>
+  </div></div>
+</section>
+
+<section class="tela" id="praias">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-praia"/></svg><h2><span lang="pt-BR">Praias</span><span lang="en">Beaches</span></h2></div></header>
+  <div class="c"><div class="card">
+    <ul lang="pt-BR">
+      <li>Praia de Iracema: cerca de 250 m, a pé</li>
+      <li>Praia do Meireles: cerca de 550 m</li>
+      <li>Mucuripe: cerca de 2,4 km</li>
+      <li>Praia do Futuro: cerca de 5 km</li>
+    </ul>
+    <ul lang="en">
+      <li>Iracema Beach: about 250 m, walking</li>
+      <li>Meireles Beach: about 550 m</li>
+      <li>Mucuripe: about 2.4 km</li>
+      <li>Praia do Futuro: about 5 km</li>
+    </ul>
+    <p class="nota"><span lang="pt-BR">Distâncias aproximadas.</span><span lang="en">Distances are approximate.</span></p>
+  </div></div>
+</section>
+
+<section class="tela" id="restaurantes">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-talher"/></svg><h2><span lang="pt-BR">Restaurantes</span><span lang="en">Restaurants</span></h2></div></header>
+  <div class="c"><div class="card">
+    <div lang="pt-BR">
+      <p><strong>A pé:</strong></p>
+      <ul><li>Pãodemel: cerca de 40 m</li><li>Mandacaru: cerca de 100 m</li><li>Terra Mia Pizzaria: cerca de 100 m</li></ul>
+      <p><strong>Vale o passeio</strong> (cerca de 2 km):</p>
+      <ul><li>Amecari (contemporânea)</li><li>Santa Grelha (carnes)</li><li>Vignoli (italiana)</li></ul>
+      <p>E a Feirinha da Beira-Mar, para comer e passear.</p>
+    </div>
+    <div lang="en">
+      <p><strong>Walking distance:</strong></p>
+      <ul><li>Pãodemel: about 40 m</li><li>Mandacaru: about 100 m</li><li>Terra Mia Pizzaria: about 100 m</li></ul>
+      <p><strong>Worth the trip</strong> (about 2 km):</p>
+      <ul><li>Amecari (contemporary)</li><li>Santa Grelha (steakhouse)</li><li>Vignoli (Italian)</li></ul>
+      <p>And the Beira-Mar Fair, for food and a stroll.</p>
+    </div>
+  </div></div>
+</section>
+
+<section class="tela" id="compras">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-sacola"/></svg><h2><span lang="pt-BR">Compras</span><span lang="en">Shopping</span></h2></div></header>
+  <div class="c"><div class="card">
+    <ul lang="pt-BR">
+      <li>CEART: artesanato cearense e lembranças</li>
+      <li>Avenida Monsenhor Tabosa: lojas de roupas e moda</li>
+      <li>Feirinha da Beira-Mar: artesanato à noite, na orla</li>
+    </ul>
+    <ul lang="en">
+      <li>CEART: Ceará handicrafts and souvenirs</li>
+      <li>Monsenhor Tabosa Avenue: clothing and fashion stores</li>
+      <li>Beira-Mar Fair: evening crafts market on the seafront</li>
+    </ul>
+  </div></div>
+</section>
+
+<section class="tela" id="emergencia">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-alerta"/></svg><h2><span lang="pt-BR">Emergência</span><span lang="en">Emergency</span></h2></div></header>
+  <div class="c"><div class="card">
+    <ul>
+      <li><a href="tel:192">SAMU 192</a> <span lang="pt-BR">(ambulância)</span><span lang="en">(ambulance)</span></li>
+      <li><a href="tel:193"><span lang="pt-BR">Bombeiros</span><span lang="en">Fire department</span> 193</a></li>
+      <li><a href="tel:190"><span lang="pt-BR">Polícia</span><span lang="en">Police</span> 190</a></li>
+    </ul>
+    <p lang="pt-BR">Recepção 24h: ligue ou chame no WhatsApp a qualquer hora.</p>
+    <p lang="en">24-hour front desk: call or message us on WhatsApp anytime.</p>
+    <p><strong><span lang="pt-BR">UPA 24h mais próxima</span><span lang="en">Nearest 24-hour urgent care (UPA)</span></strong><br>UPA 24h Praia do Futuro<br>Rua Júlio Silva, 440, Praia do Futuro, Fortaleza<br><a href="tel:+5585988998667">+55 85 98899-8667</a></p>
+    <p class="nota" lang="pt-BR">Urgência e emergência adulto, infantil e odontológica, com laboratório, farmácia e raio-X.</p>
+    <p class="nota" lang="en">Adult, pediatric and dental emergencies, with lab, pharmacy and X-ray.</p>
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=UPA+24h+Praia+do+Futuro+Rua+J%C3%BAlio+Silva+440+Fortaleza" target="_blank" rel="noopener"><span lang="pt-BR">Abrir no mapa</span><span lang="en">Open in maps</span></a>
+  </div></div>
+</section>
+
+<section class="tela" id="check-out">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-mala"/></svg><h2>Check-out</h2></div></header>
+  <div class="c"><div class="card">
+    <div lang="pt-BR">
+      <p>Até as <strong>12h</strong>.</p>
+      <p>Late check-out depende da disponibilidade do dia. Fale com a recepção.</p>
+      <p>Ao sair, entregue a <strong>chave na recepção</strong>.</p>
+    </div>
+    <div lang="en">
+      <p>By <strong>12 pm (noon)</strong>.</p>
+      <p>Late check-out depends on availability that day. Please ask the front desk.</p>
+      <p>When you leave, please return your <strong>key to the front desk</strong>.</p>
+    </div>
+  </div></div>
+</section>
+
+<section class="tela" id="contato">
+  <header><a class="voltar" href="#"><svg class="i" style="width:18px;height:18px"><use href="#i-seta"/></svg><span lang="pt-BR">Voltar</span><span lang="en">Back</span></a>
+    <div class="t"><svg class="i"><use href="#i-fone"/></svg><h2><span lang="pt-BR">Contato</span><span lang="en">Contact</span></h2></div></header>
+  <div class="c"><div class="card">
+    <p lang="pt-BR">Recepção 24h no WhatsApp: <strong>+55 85 99958-1714</strong></p>
+    <p lang="en">24-hour front desk on WhatsApp: <strong>+55 85 99958-1714</strong></p>
+    <a class="btn wa" href="https://wa.me/5585999581714" target="_blank" rel="noopener"><span lang="pt-BR">Abrir WhatsApp</span><span lang="en">Open WhatsApp</span></a>
+    <p>Instagram: <a href="https://www.instagram.com/hotelrotoruainn/" target="_blank" rel="noopener">@hotelrotoruainn</a></p>
+    <div class="aviso">
+      <p lang="pt-BR"><strong>Cuidado com golpes.</strong> O hotel nunca pede Pix ou pagamento por número desconhecido. Na dúvida, fale com a recepção.</p>
+      <p lang="en"><strong>Beware of scams.</strong> The hotel never asks for Pix or any payment from an unknown number. If in doubt, talk to the front desk.</p>
+    </div>
+  </div></div>
+</section>
+
+<script>
+(function(){
+  var h=document.documentElement, bs=document.querySelectorAll('.lang button');
+  function set(l){
+    h.lang=l;
+    bs.forEach(function(b){b.setAttribute('aria-pressed', b.dataset.l===l)});
+    try{localStorage.setItem('guia-lang',l)}catch(e){}
+  }
+  var saved=null; try{saved=localStorage.getItem('guia-lang')}catch(e){}
+  set(saved || (/^pt/i.test(navigator.language||'pt') ? 'pt-BR' : 'en'));
+  bs.forEach(function(b){b.onclick=function(){set(b.dataset.l)}});
+})();
+</script>
+</body>
+</html>
